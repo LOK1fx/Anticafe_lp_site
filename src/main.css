@@ -17,6 +17,28 @@
     height: 60px;
 }
 
+.menu-button
+{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    right: 0px;
+    top: 0px;
+    padding-right: 70px;
+    padding-top: 70px;
+}
+
+.menu-button:hover hr
+{
+    border: 2px solid rgb(190, 190, 190);
+}
+
+.menu-button hr
+{
+    width: 40px;
+    border: 2px solid #ffffff;
+}
+
 .top-bar-text
 {
     position: relative;
@@ -151,7 +173,7 @@
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 70px;
     line-height: 45px;
     text-transform: uppercase;
 
