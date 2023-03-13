@@ -1,8 +1,3 @@
-body{
-    background: url(assets/background-01.png);
-    background-size: 100% auto;
-    background-repeat: repeat-x;
-}
 
 .top-bar
 {
@@ -60,27 +55,64 @@ body{
     color: #ffffff;
 }
 
+#app
+{
+    width: 100%;
+    height: 100%;
+}
+
+#first-page
+{
+    width: 100%;
+    height: 1080px;
+}
 
 #background
 {
-    position: absolute;
-    width: 2404px;
-    height: 982px;
-    top: 0px;
-    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: url(assets/background-01.png);
+    background-size: 100% auto;
+    background-repeat: repeat-x;
+}
 
-    
+#second-page
+{
+    width: 100%;
+    height: 1080px;
+}
+
+#background02
+{
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Второй задник */
+    background-size: 100% auto;
+    background-repeat: repeat-x;
+}
+
+#third-page
+{
+    width: 100%;
+    height: 1080px;
+}
+
+#background03
+{
+    width: 100%;
+    height: 100%;
+    background: url(assets/background-03.png); /* Второй задник */
+    background-size: 100% auto;
+    background-repeat: repeat-x;
 }
 
 #jar
 {
-    position: flex;
+    position: absolute;
     width: 376.19px;
     height: 483px;
-    left: 1869px;
+    left: 769px;
     top: 362px;
-    margin-left: 1800px;
-    margin-top: 450px;
     
 
     background: url(assets/jar.png);
@@ -91,7 +123,7 @@ body{
     position: absolute;
     width: 68px;
     height: 67px;
-    left: 2146px;
+    left: 1046px;
     top: 511px;
 
 
@@ -103,7 +135,7 @@ body{
     position: absolute;
     width: 64.21px;
     height: 59px;
-    left: 1903px;
+    left: 803px;
     top: 587px;
 
     background: url(assets/fruit-2.png);
@@ -114,7 +146,7 @@ body{
     position: absolute;
     width: 75.14px;
     height: 77px;
-    left: 1883px;
+    left: 783px;
     top: 342px;
 
     background: url(assets/fruit-3.png);
@@ -125,7 +157,7 @@ body{
     position: absolute;
     width: 54.44px;
     height: 49px;
-    left: 1954px;
+    left: 854px;
     top: 272px;
 
     background: url(assets/fruit-4.png);
@@ -136,7 +168,7 @@ body{
     position: absolute;
     width: 61.45px;
     height: 57px;
-    left: 2085px;
+    left: 985px;
     top: 240px;
 
     background: url(assets/fruit-5.png);
@@ -147,7 +179,7 @@ body{
     position: absolute;
     width: 51.22px;
     height: 70px;
-    left: 2170px;
+    left: 1070px;
     top: 330px;
 
     background: url(assets/fruit-6.png);
@@ -159,7 +191,7 @@ body{
     position: absolute;
     width: 79px;
     height: 58px;
-    left: 1869px;
+    left: 769px;
     top: 474px;
 
     background: url(assets/fruit-7.png);
