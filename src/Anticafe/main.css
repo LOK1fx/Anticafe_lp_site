@@ -1,0 +1,302 @@
+
+.top-bar
+{
+    position: absolute;
+    top: 0px;
+    width: 410px;
+    height: 109px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.top-bar-frame
+{
+    position: relative;
+    width: 410px;
+    height: 60px;
+}
+
+.menu-button
+{
+    position: absolute;
+    width: 70px;
+    height: 60px;
+    right: 70px;
+    top: 70px;
+}
+
+.menu-button:hover hr
+{
+    border: 2px solid rgb(190, 190, 190);
+}
+
+.menu-button hr
+{
+    width: 40px;
+    border: 2px solid #ffffff;
+}
+
+.top-bar-text
+{
+    position: relative;
+    width: 410px;
+    height: 60px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    text-shadow: black;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #ffffff;
+}
+
+#app
+{
+    width: 100%;
+    height: 100%;
+}
+
+#first-page
+{
+    width: 100%;
+    height: 1080px;
+}
+
+#background
+{
+    width: 100%;
+    height: 100%;
+    background: url(assets/background-01.png);
+    background-size: 100% auto;
+    background-repeat: repeat-x;
+}
+
+#second-page
+{
+    width: 100%;
+    height: 1080px;
+}
+
+#background02
+{
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Второй задник */
+    background-size: 100% auto;
+    background-repeat: repeat-x;
+}
+
+#third-page
+{
+    width: 100%;
+    height: 1080px;
+}
+
+#background03
+{
+    width: 100%;
+    height: 100%;
+    background: url(assets/background-03.png); /* Второй задник */
+    background-size: 100% auto;
+    background-repeat: repeat-x;
+}
+
+#jar
+{
+    position: absolute;
+    width: 376.19px;
+    height: 483px;
+    left: 769px;
+    top: 362px;
+    
+
+    background: url(assets/jar.png);
+}
+
+#fruit-1
+{
+    position: absolute;
+    width: 68px;
+    height: 67px;
+    left: 1046px;
+    top: 511px;
+
+
+    background: url(assets/fruit-1.png);
+}
+
+#fruit-2
+{
+    position: absolute;
+    width: 64.21px;
+    height: 59px;
+    left: 803px;
+    top: 587px;
+
+    background: url(assets/fruit-2.png);
+}
+
+#fruit-3
+{
+    position: absolute;
+    width: 75.14px;
+    height: 77px;
+    left: 783px;
+    top: 342px;
+
+    background: url(assets/fruit-3.png);
+}
+
+#fruit-4
+{
+    position: absolute;
+    width: 54.44px;
+    height: 49px;
+    left: 854px;
+    top: 272px;
+
+    background: url(assets/fruit-4.png);
+}
+
+#fruit-5
+{
+    position: absolute;
+    width: 61.45px;
+    height: 57px;
+    left: 985px;
+    top: 240px;
+
+    background: url(assets/fruit-5.png);
+}
+
+#fruit-6
+{
+    position: absolute;
+    width: 51.22px;
+    height: 70px;
+    left: 1070px;
+    top: 330px;
+
+    background: url(assets/fruit-6.png);
+    filter: blur(2px);
+}
+
+#fruit-7
+{
+    position: absolute;
+    width: 79px;
+    height: 58px;
+    left: 769px;
+    top: 474px;
+
+    background: url(assets/fruit-7.png);
+    filter: blur(2px);
+}
+
+
+#text-olekminsk
+{
+    position: absolute;
+    width: 178px;
+    height: 40px;
+    left: 77px;
+    top: 393px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 45px;
+    text-transform: uppercase;
+
+    color: #A52AEA;
+}
+
+#text-anticafe
+{
+    position: absolute;
+    width: 526px;
+    height: 300px;
+    left: 92px;
+    top: 393px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 150px;
+    text-transform: uppercase;
+
+    color: #FEFDFF;
+}
+
+#text-let-splay
+{
+    position: absolute;
+    width: 680px;
+    height: 122px;
+    left: 128px;
+    top: 490px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 150px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+#about-us
+{
+    position: absolute;
+    right: 0px;
+    top: 300px;
+    width: 400px;
+
+    padding-right: 40px;
+}
+
+#text-about-us
+{
+    position: relative;
+    width: 123px;
+    height: 51px;
+    left: 0px;
+    top: 25px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #ffffff;
+}
+
+#text-about-us-desc
+{
+    position: relative;
+    width: 242px;
+    height: 352px;
+    left: 0px;
+    top: 0px;
+    margin-top: 10px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    text-align: justify;
+
+    color: #B6B6B6;
+}
