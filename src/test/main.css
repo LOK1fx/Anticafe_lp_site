@@ -9,13 +9,24 @@ body
 
 #vk
 {
+    width: 48px;
+    height: 48px;
 
+    left: 200px;
+    top: 100px;
+    position: absolute;
+    background: url(img/vk.png);
 }
 
-#tg
+#inst
 {
+    width: 48px;
+    height: 48px;
+
+    left: 130px;
+    top: 100px;
     position: absolute;
-    background: url(img/Telegram\ Mono.png);
+    background: url(img/Group\ 125.png);
 }
 
 #btn-bron
@@ -126,7 +137,7 @@ body
     width: 410px;
     height: 60px;
 
-    margin-left: 30px;
+    margin-left: 130px;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-weight: 400;
@@ -347,4 +358,195 @@ body
     text-align: justify;
 
     color: #B6B6B6;
+}
+
+
+#icon-map
+{
+    position: absolute;
+    background: url(img/clarity_map-marker-line.png);
+    width: 24px;
+    height: 24px;
+    top: 165px;
+    left: 128px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#icon-call
+{
+    position: absolute;
+    background: url(img/la_phone.png);
+    width: 24px;
+    height: 24px;
+    top: 194px;
+    left: 128px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#text-adress
+{
+    position: absolute;
+    width: 420px;
+    height: 18px;
+    top: 155px;
+    left: 160px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#text-number
+{
+    position: absolute;
+    width: 152px;
+    height: 22px;
+    top: 180px;
+    left: 160px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+#text-broni
+{
+    position: absolute;
+    width: 206px;
+    height: 24px;
+    left: 130px;
+    top: 290px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#text-date
+{
+    position: absolute;
+    top: 330px;
+    left: 130px;
+    width: 49px;
+    height: 24px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#input-peoples
+{
+    position: absolute;
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    gap: 346px;
+    
+    left: 125px;
+    top: 450px;
+    width: 452px;
+    height: 48px;
+    
+    background: #FFFFFF;
+    /* black */
+    
+    border: 1px solid #111010;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#phohto
+{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+    width: 452px;
+    height: 216px;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    /* Inside auto layout */
+    background: url(img/Group\ 126.png);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 }
