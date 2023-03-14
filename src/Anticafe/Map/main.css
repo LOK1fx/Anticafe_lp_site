@@ -244,7 +244,7 @@
     margin-top: -880px;
     margin-left: 40px;
     
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-weight: 800;
     font-size: 40px;
@@ -252,7 +252,7 @@
     
     /* gray */
     
-    color: #BBBBBB; 
+    color: #ffffff; 
 }
 
 #text-addres
@@ -263,7 +263,7 @@
     left: 35px;
     top: 567px;
     
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-weight: 800;
     font-size: 24px;
@@ -283,7 +283,7 @@
     margin-top: -880px;
     margin-left: 1578px;
     
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: italic;
     font-weight: 800;
     font-size: 40px;
