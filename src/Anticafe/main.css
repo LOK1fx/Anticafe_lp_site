@@ -1,3 +1,9 @@
+#app
+{
+    height: 100% auto;
+    overflow-y: hidden;
+}
+
 
 .top-bar
 {
